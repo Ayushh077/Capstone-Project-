@@ -68,7 +68,6 @@ header {
   cursor: pointer;
 }
 
-/* HERO */
 .hero {
   max-width: none;
   width: 100%;
@@ -111,14 +110,12 @@ header {
   background: #f59e0b;
 }
 
-/* SECTION TITLE */
 section h2 {
   text-align: center;
   font-size: 1.9rem;
   margin-bottom: 2rem;
 }
 
-/* DESTINATIONS */
 .destinations {
   background: #ffffff;
   border-radius: 1.3rem;
@@ -156,7 +153,6 @@ section h2 {
   margin-bottom: 0.4rem;
 }
 
-/* PACKAGES */
 .packages {
   background: #ffffff;
   border-radius: 1.3rem;
@@ -212,7 +208,6 @@ section h2 {
   background: #1d4ed8;
 }
 
-/* HOW IT WORKS */
 .how-it-works {
   background: #ffffff;
   border-radius: 1.3rem;
@@ -251,7 +246,6 @@ section h2 {
   margin-bottom: 0.7rem;
 }
 
-/* TESTIMONIALS */
 .testimonials {
   background: #ffffff;
   border-radius: 1.3rem;
@@ -293,7 +287,6 @@ section h2 {
   color: #fbbf24;
 }
 
-/* BLOG */
 .blog {
   background: #ffffff;
   border-radius: 1.3rem;
@@ -334,7 +327,6 @@ section h2 {
   color: #2563eb;
 }
 
-/* STATS */
 .stats {
   display: flex;
   flex-wrap: wrap;
@@ -354,7 +346,6 @@ section h2 {
   color: #6b7280;
 }
 
-/* NEWSLETTER */
 .newsletter {
   background: linear-gradient(120deg, #2563eb, #f97316);
   border-radius: 1.3rem;
@@ -388,7 +379,6 @@ section h2 {
   color: #ffffff;
 }
 
-/* CONTACT */
 .contact-section {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
@@ -439,7 +429,6 @@ section h2 {
     linear-gradient(135deg, rgba(15,23,42,0.9), rgba(37,99,235,0.7));
 }
 
-/* FOOTER */
 footer {
   background: #020617;
   color: #9ca3af;
@@ -485,7 +474,6 @@ footer {
   font-size: 0.8rem;
 }
 
-/* ANIMATIONS */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -497,7 +485,6 @@ footer {
   }
 }
 
-/* Staggered delays */
 .dest-card:nth-child(1) { animation-delay: 0.05s; }
 .dest-card:nth-child(2) { animation-delay: 0.15s; }
 .dest-card:nth-child(3) { animation-delay: 0.25s; }
@@ -516,7 +503,6 @@ footer {
 .blog-card:nth-child(2) { animation-delay: 0.18s; }
 .blog-card:nth-child(3) { animation-delay: 0.31s; }
 
-/* Hover effects */
 .dest-card,
 .package-card,
 .step,
@@ -536,7 +522,6 @@ footer {
   box-shadow: 0 10px 24px rgba(0,0,0,0.1);
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .hamburger {
     display: block;
