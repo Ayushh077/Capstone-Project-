@@ -10,14 +10,12 @@ body {
   color: #111827;
 }
 
-/* Layout */
 section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 1.5rem;
 }
 
-/* NAVBAR */
 header {
   position: sticky;
   top: 0;
